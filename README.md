@@ -1,32 +1,34 @@
-Bypass Zama Dev Guild "10 Commits Before 10 July" Task
+## **Bypass Zama Dev Guild "10 Commits Before 10 July" Task**
 After following this guide you will have: 20 commits on your github before 30 June
 
 There are currently 2 ways to bypass this task
 using codespace terminal: short but works for few people
 using wsl/ubuntu: works for everyone we will be using second method here to onboard more people
 Instructions
-1. Create a New Repository
+
+1. ## Create a New Repository
 Go to: https://github.com/new
 Repository Name: 20commits
 Tick "Add a README file"
 Click Create repository
-2. Open Ubuntu
+
+2. ## Open Ubuntu
 3. Clone your GitHub repo
 In Newly Created GitHub Repo click the green <> Code button copy the HTTPS link (looks like: https://github.com/username/repo.git)
 
-4. In Ubuntu Terminal:
+4. ## In Ubuntu Terminal:
 cd ~
-git clone https://github.com/your-username/your-repo.git
-cd 20commits
+**git clone https://github.com/your-username/your-repo.git
+cd 20commits**
 replace HTTPS link in above command by link you copied above -do this carefully
 
-5. Authenticate
-git config --global user.name "X"
-git config --global user.email "Y.com"
+5. ## Authenticate
+**git config --global user.name "X"
+git config --global user.email "Y.com"**
 **replace X and Y by your original github username and email respectively
 
-6. Run this command
-echo "Commit 1 line" >> README.md
+6. ## Run this command
+**echo "Commit 1 line" >> README.md
 git add README.md
 GIT_AUTHOR_DATE="2025-06-30T01:00:01" GIT_COMMITTER_DATE="2025-06-30T01:00:01" git commit -m "Commit 1"
 
@@ -104,6 +106,8 @@ GIT_AUTHOR_DATE="2025-06-30T06:10:10" GIT_COMMITTER_DATE="2025-06-30T06:10:10" g
 
 echo "Commit 20 line" >> README.md
 git add README.md
-GIT_AUTHOR_DATE="2025-06-30T06:30:01" GIT_COMMITTER_DATE="2025-06-30T06:30:01" git commit -m "Commit 20"
-git push
+GIT_AUTHOR_DATE="2025-06-30T06:30:01" GIT_COMMITTER_DATE="2025-06-30T06:30:01" git commit -m "Commit 20"**
+
+**git push**
+
 After git push command you will be asked for username, paste your github username Then you will be asked for password: Don't use your github password use PAT instead (below is guide how to grab your PAT# daga_10_commits
