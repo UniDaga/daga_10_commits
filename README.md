@@ -10,7 +10,8 @@ Instructions
 
 Go to [GitHub New Repository](https://github.com/new)
 
+<p id="Go to: https://github.com/new
+Repository Name: 20commits">This is the text I want to copy.</p>
 
-copy_my_writing generate "Repository Name: `20commits`"
 
 
