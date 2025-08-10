@@ -7,21 +7,7 @@ using wsl/ubuntu: works for everyone we will be using second method here to onbo
 Instructions
 
 1. ## Create a New Repository
-<div id="textToCopy" style="border:1px solid #ccc; padding:10px; cursor:pointer;">
-2. Open Ubuntu<br>
-3. Clone your GitHub repo<br>
-In Newly Created GitHub Repo click the green &lt;&gt; Code button copy the HTTPS link (looks like: https://github.com/username/repo.git)
-</div>
-
-<script>
-document.getElementById("textToCopy").addEventListener("click", () => {
-    const text = document.getElementById("textToCopy").innerText;
-    navigator.clipboard.writeText(text).then(() => {
-        alert("Copied all text to clipboard!");
-    }).catch(err => {
-        console.error("Failed to copy: ", err);
-    });
-});
-</script>
+Go to: ## **https://github.com/new
+Repository Name: 20commits**
 
 
