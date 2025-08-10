@@ -22,11 +22,11 @@ replace HTTPS link in above command by link you copied above -do this carefully
 
 5. ## Authenticate
 **git config --global user.name "X"
-git config --global user.email "Y.com" **
+git config --global user.email "Y.com"**
 **replace X and Y by your original github username and email respectively
 
 6. ## Run this command
-** echo "Commit 1 line" >> README.md
+**echo "Commit 1 line" >> README.md
 git add README.md
 GIT_AUTHOR_DATE="2025-06-30T01:00:01" GIT_COMMITTER_DATE="2025-06-30T01:00:01" git commit -m "Commit 1"
 
