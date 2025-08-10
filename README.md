@@ -106,9 +106,9 @@ GIT_AUTHOR_DATE="2025-06-30T06:10:10" GIT_COMMITTER_DATE="2025-06-30T06:10:10" g
 
 echo "Commit 20 line" >> README.md
 git add README.md
-GIT_AUTHOR_DATE="2025-06-30T06:30:01" GIT_COMMITTER_DATE="2025-06-30T06:30:01" git commit -m "Commit 20"
+GIT_AUTHOR_DATE="2025-06-30T06:30:01" GIT_COMMITTER_DATE="2025-06-30T06:30:01" git commit -m "Commit 20"<br>
 
-**git push**
+<br>git push<br>
 After git push command you will be asked for username, paste your github username Then you will be asked for password: Don't use your github password use PAT instead (below is guide how to grab your PAT
 
 
