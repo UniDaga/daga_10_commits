@@ -6,8 +6,11 @@ using codespace terminal: short but works for few people
 using wsl/ubuntu: works for everyone we will be using second method here to onboard more people
 Instructions
 
-1. ## Create a New Repository
-Go to: ()https://github.com/new
-Repository Name: 20commits()
+1.# Create New Repository
+
+Go to [GitHub New Repository](https://github.com/new)
+
+Repository Name: `20commits`
+
 
 
