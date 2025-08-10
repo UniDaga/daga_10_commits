@@ -8,8 +8,10 @@ Instructions
 1. ## Create a New Repository
 Go to:**https://github.com/new**
 Repository Name: `20commits`
+
 Tick "Add a README file"
 Click Create repository
+
 2. Open Ubuntu
 3. Clone your GitHub repo
 In Newly Created GitHub Repo click the green <> Code button copy the HTTPS link (looks like: https://github.com/username/repo.git)
