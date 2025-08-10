@@ -110,15 +110,6 @@ git add README.md
 GIT_AUTHOR_DATE="2025-06-30T06:30:01" GIT_COMMITTER_DATE="2025-06-30T06:30:01" git commit -m "Commit 20"<b>
 
 git push</div>
-<script>
-document.getElementById("textToCopy").addEventListener("click", () => {
-    const text = document.getElementById("textToCopy").innerText;
-    navigator.clipboard.writeText(text).then(() => {
-        alert("Copied all text to clipboard!");
-    }).catch(err => {
-        console.error("Failed to copy: ", err);
-    });
-});
-</script>
+
 
 After git push command you will be asked for username, paste your github username Then you will be asked for password: Don't use your github password use PAT instead (below is guide how to grab your PAT# daga_10_commits
