@@ -7,7 +7,7 @@ using wsl/ubuntu: works for everyone we will be using second method here to onbo
 Instructions
 
 1. ## Create a New Repository
-Go to:**https://github.com/new
-Repository Name: 20commits**<br>
+Go to:<**https://github.com/new
+Repository Name: 20commits**>
 
 
