@@ -10,19 +10,7 @@ Instructions
 
 Go to [GitHub New Repository](https://github.com/new)
 
-Repository Name: `20commits`
 
-<div id="copyText" style="cursor:pointer; border:1px solid #ccc; padding:10px; display:inline-block;">
-  Opening up
-</div>
-
-<script>
-document.getElementById('copyText').addEventListener('click', () => {
-  const text = document.getElementById('copyText').innerText;
-  navigator.clipboard.writeText(text)
-    .then(() => alert('Copied: ' + text))
-    .catch(() => alert('Failed to copy'));
-});
-</script>
+copy_my_writing generate "Repository Name: `20commits`"
 
 
