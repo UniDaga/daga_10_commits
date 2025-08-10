@@ -6,7 +6,7 @@ using codespace terminal: short but works for few people
 using wsl/ubuntu: works for everyone we will be using second method here to onboard more people
 Instructions
 1. ## Create a New Repository
-Go to:**https://github.com/new**
+Go to:<br>https://github.com/new<br>
 Repository Name: `20commits`
 
 Tick "Add a README file"
@@ -17,18 +17,18 @@ Click Create repository
 In Newly Created GitHub Repo click the green <> Code button copy the HTTPS link (looks like: https://github.com/username/repo.git)
 
 4. ## In Ubuntu Terminal:
-**cd ~
+<br>cd ~
 git clone https://github.com/your-username/your-repo.git
-cd 20commits**
+cd 20commits<br>
 replace HTTPS link in above command by link you copied above -do this carefully
 
 5. ## Authenticate
-**git config --global user.name "X"
-git config --global user.email "Y.com"**
+<br>git config --global user.name "X"
+git config --global user.email "Y.com"<br>
 **replace X and Y by your original github username and email respectively
 
 6. ## Run this command
-echo "Commit 1 line" >> README.md
+<br>echo "Commit 1 line" >> README.md
 git add README.md
 GIT_AUTHOR_DATE="2025-06-30T01:00:01" GIT_COMMITTER_DATE="2025-06-30T01:00:01" git commit -m "Commit 1"
 
@@ -109,6 +109,7 @@ git add README.md
 GIT_AUTHOR_DATE="2025-06-30T06:30:01" GIT_COMMITTER_DATE="2025-06-30T06:30:01" git commit -m "Commit 20"<br>
 
 <br>git push<br>
+
 After git push command you will be asked for username, paste your github username Then you will be asked for password: Don't use your github password use PAT instead (below is guide how to grab your PAT
 
 
