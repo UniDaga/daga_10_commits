@@ -25,7 +25,8 @@ replace HTTPS link in above command by link you copied above -do this carefully
 
 5. ## Authenticate
 ```
-git config --global user.name "X" - git config --global user.email "Y.com"
+ git config --global user.name "X"
+ git config --global user.email "Y.com"
 ```
 replace X and Y by your original github username and email respectively
 
