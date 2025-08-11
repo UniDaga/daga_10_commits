@@ -17,17 +17,21 @@ Click Create repository
 In Newly Created GitHub Repo click the green <> Code button copy the HTTPS link (looks like: https://github.com/username/repo.git)
 
 4. ## In Ubuntu Terminal:
-<br>cd ~
+```
 git clone https://github.com/your-username/your-repo.git
-cd 20commits<br>
+cd 20commits
+```
 replace HTTPS link in above command by link you copied above -do this carefully
 
 5. ## Authenticate
-<br>git config --global user.name "X"<br><br>git config --global user.email "Y.com"<br>
+```
+git config --global user.name "X"<br><br>git config --global user.email "Y.com"
+```
 replace X and Y by your original github username and email respectively
 
 6. ## Run this command
-<br>echo "Commit 1 line" >> README.md
+```
+echo "Commit 1 line" >> README.md
 git add README.md
 GIT_AUTHOR_DATE="2025-06-30T01:00:01" GIT_COMMITTER_DATE="2025-06-30T01:00:01" git commit -m "Commit 1"
 
@@ -105,9 +109,12 @@ GIT_AUTHOR_DATE="2025-06-30T06:10:10" GIT_COMMITTER_DATE="2025-06-30T06:10:10" g
 
 echo "Commit 20 line" >> README.md
 git add README.md
-GIT_AUTHOR_DATE="2025-06-30T06:30:01" GIT_COMMITTER_DATE="2025-06-30T06:30:01" git commit -m "Commit 20"<br>
+GIT_AUTHOR_DATE="2025-06-30T06:30:01" GIT_COMMITTER_DATE="2025-06-30T06:30:01" git commit -m "Commit 20"
+```
 
-<br>git push<br>
+```
+git push
+```
 
 After git push command you will be asked for username, paste your github username Then you will be asked for password: Don't use your github password use PAT instead (below is guide how to grab your PAT
 
